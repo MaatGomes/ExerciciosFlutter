@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
       floatingActionButton: const FloatingActionButton(
         onPressed: null,
         tooltip: 'Exemplo de botão',
-        child: Icon(Icons.add),
+        child: Icon(Icons.add_a_photo),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
     );

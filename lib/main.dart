@@ -7,7 +7,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: const Icon(Icons.home),
+        leading: const Icon(Icons.home_work),
         title: const Text('Página Inicial'),
       ),
       body: Column(children: const [

@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.blue[900],
       floatingActionButton: const FloatingActionButton(
         onPressed: null,
-        tooltip: 'Exemplo de botão.',
+        tooltip: 'Envie uma foto.',
         child: Icon(Icons.add_a_photo),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,

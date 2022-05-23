@@ -8,7 +8,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: const Icon(Icons.home_work),
-        title: const Text('Página Inicial'),
+        title: const Text('Home Page'),
       ),
       body: Column(children: const [
         Center(

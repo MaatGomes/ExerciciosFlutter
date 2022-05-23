@@ -7,25 +7,24 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: const Icon(Icons.home_work),
-        title: const Text('Home Page'),
+        leading: const Icon(Icons.home),
+        title: const Text('Página Inicial'),
       ),
-      body: Column(children: const [
-        Center(
-          heightFactor: 19,
-          child: Text('Olá Mundo!',
-              textDirection: TextDirection.ltr,
-              style: TextStyle(
-                fontSize: 32,
-                color: Colors.yellow,
-              )),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Image.network(
+              'https://media.giphy.com/media/pt0EKLDJmVvlS/giphy.gif',
+            ),
+          ],
         ),
-      ]),
+      ),
       backgroundColor: Colors.blue[900],
       floatingActionButton: const FloatingActionButton(
         onPressed: null,
-        tooltip: 'Envie uma foto.',
-        child: Icon(Icons.add_a_photo),
+        tooltip: 'Exemplo de botão',
+        child: Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
     );
